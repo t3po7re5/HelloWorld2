@@ -1,0 +1,10 @@
+project_name: HelloWorld
+verification_url: intellivendo.com/verify.html
+throughput_tests:
+- name: Test main site
+  base_branch: master
+  endpoint: intellivendo.com
+  http_type: GET
+  test_time_seconds: 5
+  tps: 10
+  -headers:
