@@ -1,5 +1,5 @@
 project_name: HelloWorld
-verification_url: intellivendo.com/verify.html
+verification_url: http://intellivendo.com/verify.html
 throughput_tests:
 - name: Test main site
   base_branch: master
